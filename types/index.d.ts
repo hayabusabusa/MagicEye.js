@@ -8,12 +8,10 @@ export interface Options {
     colors: number[][] | null
 }
 
-export class DepthMapper {
-    autoResize: boolean;
-
-    constructor()
-
-    public make(width: number, height: number): number[][]
-}
+export class DepthMapper {}
 
 export function render(options: Options): void
+
+export class TextDepthMapper extends DepthMapper {
+    constructor(text: string)
+}
