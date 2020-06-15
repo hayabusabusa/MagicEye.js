@@ -5,6 +5,7 @@ export interface Options {
     depthMap: number[][] | null,
     depthMapper: DepthMapper | null,
     imageType: string | null,
+    output: string | null,
     colors: number[][] | null
 }
 

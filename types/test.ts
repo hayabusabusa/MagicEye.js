@@ -7,6 +7,7 @@ const options: MagicEye.Options = {
     depthMap: null,
     depthMapper: new MagicEye.TextDepthMapper('Text'),
     imageType: 'png',
+    output: null,
     colors: [
         [255, 255, 255, 255],
         [0, 0, 0, 255]
