@@ -3,7 +3,7 @@
   "description": "A JavaScript library for generating single image random dot stereograms (\"Magic Eye\") in the browser",
   "version": "0.2.0",
   "license": "MIT",
-  "main": "magiceye.min.js",
+  "main": "magiceye.js",
   "homepage": "https://github.com/peeinears/MagicEye.js",
   "repository": {
     "type": "git",
